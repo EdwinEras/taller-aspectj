@@ -19,11 +19,11 @@ public aspect Logger {
 			String line = "";
 			
 	        if ( thisJoinPoint.getSignature().toString().equals("void com.bank.Bank.moneyMakeTransaction()"))  {
-	            line = "Realizar transacción,"+cal.getTime()+"\n";
+	            line = String.format("Realizar transaccion %35s %s", cal.getTime(), "\n");
 	        }
 	        
 	        if ( thisJoinPoint.getSignature().toString().equals("void com.bank.Bank.moneyWithdrawal()")) {
-	        	line = "Retirar dinero,"+cal.getTime()+"\n";
+	        	line = String.format("Retiro de dinero %39s %s", cal.getTime(), "\n");
 	        }  
 			
 			bw.write(line);

@@ -1,3 +1,5 @@
-Realizar transacción,Thu Oct 29 12:38:37 COT 2020
-Retirar dinero,Thu Oct 29 12:38:49 COT 2020
-Realizar transacción,Thu Oct 29 12:39:04 COT 2020
+
+Realizar transaccion        Thu Oct 29 20:54:11 ECT 2020 
+Realizar transaccion        Thu Oct 29 20:54:21 ECT 2020 
+Retiro de dinero            Thu Oct 29 20:54:34 ECT 2020 
+Retiro de dinero            Thu Oct 29 20:54:44 ECT 2020 
